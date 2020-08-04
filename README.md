@@ -61,7 +61,7 @@ This project was developed with the following technologies:
 
 ## 🔖 Layout
 
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+To access the layout use [Web](https://www.figma.com/file/W7X5HgkYaruZnUVKHj6Uz4/Proffy-Web) [Mobile](https://www.figma.com/file/FSQdUUY3n8YZeLkpZTJYBT/Proffy-Mobile).
 
 ## :information_source: How To Use
 
