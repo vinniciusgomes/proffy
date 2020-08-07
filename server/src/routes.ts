@@ -1,18 +1,16 @@
-import express from "express";
+import express from 'express';
 
-import db from "./database/connection";
-import convertHourToMinutes from "./utils/convertHourToMinutes";
-import ClassesController from "./controllers/ClassesController";
-import ConnectionsController from "./controllers/ConnectionsController";
+import ClassesController from './controllers/ClassesController';
+import ConnectionsController from './controllers/ConnectionsController';
 
 const routes = express.Router();
-const classesController = new ClassesController();
-const connectionController = new ConnectionsController();
+const classesControllers = new ClassesController();
+const connectionsControllers = new ConnectionsController();
 
-routes.get("/classes", classesController.index);
-routes.post("/classes", classesController.create);
+routes.get('/classes', classesControllers.index);
+routes.post('/classes', classesControllers.create);
 
-routes.post("/connections", connectionController.create);
-routes.get("/connections", connectionController.index);
+routes.get('/connections', connectionsControllers.index);
+routes.post('/connections', connectionsControllers.create);
 
 export default routes;
